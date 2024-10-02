@@ -1,5 +1,7 @@
 # Virtual Assistants avec AliPinedaVA
 
+![Resultat](image.png)
+
 Bienvenue sur le dépôt GitHub de "Virtual Assistants avec AliPinedaVA" ! Ce projet est une page HTML et CSS conçue pour vous aider à pratiquer l'utilisation de Flexbox et à explorer la nouvelle fonctionnalité de CSS : le nesting (imbrication).
 
 ## Aperçu
