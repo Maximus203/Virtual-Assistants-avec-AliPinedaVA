@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AliPinedaVA</title>
+    <style>
+        body {
+            background-color: #0074bf;
+            color: white;
+            font-family: Helvetica, sans-serif;
+            padding-left: 3em;
+            padding-right: 3em;
+
+            header {
+                display: flex;
+                font-size: 1.3em;
+                justify-content: space-between;
+                padding-top: 5em;
+                padding-bottom: 2em;
+                align-items: center;
+
+
+                a {
+                    text-decoration: none;
+                    color: white;
+                }
+
+                .active {
+                    border-bottom: #ec9b20 solid 2px;
+                    color: #ec9b20;
+                    padding-bottom: 7px;
+                    font-weight: 600;
+                }
+
+                .logo {
+                    font-size: 1.4em;
+                    font-weight: 700;
+                }
+
+                nav {
+                    width: 35%;
+
+
+                    ul {
+                        margin: 0;
+                        list-style: none;
+                        display: flex;
+                        justify-content: space-around;
+
+                    }
+                }
+            }
+
+            .container {
+                display: flex;
+                justify-content: center;
+                gap: 2em;
+                color: rgb(54, 54, 54);
+
+                .card {
+                    display: flex;
+                    flex-direction: column;
+                    gap: .5em;
+                    background-color: white;
+                    padding: 15px;
+                    border-radius: .5em;
+                    margin-bottom: 20px;
+
+                    h1 {
+                        font-weight: 800;
+                    }
+
+                    p {
+                        line-height: 1.5;
+                    }
+
+                    button {
+                        background-color: #ec9b20;
+                        color: white;
+                        padding: .8em 1.3em;
+                        border-radius: .2em;
+                        border: none;
+                        text-transform: uppercase;
+                        width: fit-content;
+                        margin-bottom: 2em;
+                    }
+                }
+            }
+
+
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo"><a href="./index.html">AliPinedaVA</a></div>
+        <nav>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a class="active" href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="container">
+            <div class="card">
+                <h1>Virtual Assistants: Making Your Life Easier</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, alias provident repellendus
+                    temporibus! </p>
+                <button>Learn More</button>
+            </div>
+            <div class="card">
+                <h1>Elevate Your Efficiency with a Virtual Assistant</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, alias provident repellendus
+                    temporibus!</p>
+                <button>Learn More</button>
+            </div>
+            <div class="card">
+                <h1>Your Digital Companion: Virtual Assistant</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, alias provident repellendus
+                    temporibus!</p>
+                <button>Learn More</button>
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>
