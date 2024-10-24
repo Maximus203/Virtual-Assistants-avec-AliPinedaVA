@@ -13,81 +13,162 @@
             padding-left: 3em;
             padding-right: 3em;
 
-            header {
-                display: flex;
-                font-size: 1.3em;
-                justify-content: space-between;
-                padding-top: 5em;
-                padding-bottom: 2em;
-                align-items: center;
+            @media screen and (max-width: 1000px) {
+                header {
+                    display: flex;
+                    font-size: 1em;
+                    justify-content: space-between;
+                    padding-top: 3em;
+                    padding-bottom: 1em;
+                    align-items: center;
 
+                    a {
+                        text-decoration: none;
+                        color: white;
+                    }
 
-                a {
-                    text-decoration: none;
-                    color: white;
-                }
+                    .active {
+                        border-bottom: #ec9b20 solid 2px;
+                        color: #ec9b20;
+                        padding-bottom: 7px;
+                        font-weight: 600;
+                    }
 
-                .active {
-                    border-bottom: #ec9b20 solid 2px;
-                    color: #ec9b20;
-                    padding-bottom: 7px;
-                    font-weight: 600;
-                }
+                    .logo {
+                        font-size: 1.4em;
+                        font-weight: 700;
+                    }
 
-                .logo {
-                    font-size: 1.4em;
-                    font-weight: 700;
-                }
+                    nav {
+                        width: 70%;
 
-                nav {
-                    width: 35%;
-
-
-                    ul {
-                        margin: 0;
-                        list-style: none;
-                        display: flex;
-                        justify-content: space-around;
-
+                        ul {
+                            margin: 0;
+                            list-style: none;
+                            display: flex;
+                            justify-content: space-around;
+                        }
                     }
                 }
-            }
 
-            .container {
-                display: flex;
-                justify-content: center;
-                gap: 2em;
-                color: rgb(54, 54, 54);
 
-                .card {
+                .container {
+                    margin-top: 2em;
                     display: flex;
                     flex-direction: column;
-                    gap: .5em;
-                    background-color: white;
-                    padding: 15px;
-                    border-radius: .5em;
-                    margin-bottom: 20px;
+                    justify-content: center;
+                    gap: 1em;
+                    color: rgb(54, 54, 54);
 
-                    h1 {
-                        font-weight: 800;
-                    }
+                    .card {
+                        display: flex;
+                        flex-direction: column;
+                        gap: .5em;
+                        background-color: white;
+                        padding: 15px;
+                        border-radius: .5em;
+                        margin-bottom: 20px;
 
-                    p {
-                        line-height: 1.5;
-                    }
+                        h1 {
+                            font-weight: 800;
+                        }
 
-                    button {
-                        background-color: #ec9b20;
-                        color: white;
-                        padding: .8em 1.3em;
-                        border-radius: .2em;
-                        border: none;
-                        text-transform: uppercase;
-                        width: fit-content;
-                        margin-bottom: 2em;
+                        p {
+                            line-height: 1.5;
+                        }
+
+                        button {
+                            background-color: #ec9b20;
+                            color: white;
+                            padding: .8em 1.3em;
+                            border-radius: .2em;
+                            border: none;
+                            text-transform: uppercase;
+                            width: fit-content;
+                            margin-bottom: 2em;
+                        }
                     }
                 }
             }
+
+            @media (min-width: 768px) and (max-width: 1600px) {
+                header {
+                    display: flex;
+                    font-size: 1.3em;
+                    justify-content: space-between;
+                    padding-top: 5em;
+                    padding-bottom: 2em;
+                    align-items: center;
+
+
+                    a {
+                        text-decoration: none;
+                        color: white;
+                    }
+
+                    .active {
+                        border-bottom: #ec9b20 solid 2px;
+                        color: #ec9b20;
+                        padding-bottom: 7px;
+                        font-weight: 600;
+                    }
+
+                    .logo {
+                        font-size: 1.4em;
+                        font-weight: 700;
+                    }
+
+                    nav {
+                        width: 35%;
+
+
+                        ul {
+                            margin: 0;
+                            list-style: none;
+                            display: flex;
+                            justify-content: space-around;
+
+                        }
+                    }
+                }
+
+                .container {
+                    display: flex;
+                    justify-content: center;
+                    gap: 2em;
+                    color: rgb(54, 54, 54);
+
+                    .card {
+                        display: flex;
+                        flex-direction: column;
+                        gap: .5em;
+                        background-color: white;
+                        padding: 15px;
+                        border-radius: .5em;
+                        margin-bottom: 20px;
+
+                        h1 {
+                            font-weight: 800;
+                        }
+
+                        p {
+                            line-height: 1.5;
+                        }
+
+                        button {
+                            background-color: #ec9b20;
+                            color: white;
+                            padding: .8em 1.3em;
+                            border-radius: .2em;
+                            border: none;
+                            text-transform: uppercase;
+                            width: fit-content;
+                            margin-bottom: 2em;
+                        }
+                    }
+                }
+            }
+
 
 
 
